@@ -134,7 +134,7 @@ Less of a pain to type 😌.
 
 ## Addition in any order
 
-The previous couple of properties concerning the order of terms in addition were there to introduce you to the
+The previous couple of properties concerning the order of terms in addition were introduced to get you thinking about the
 concept of a general property. In reality, you don't consciously think about them (right?) when performing addition.
 You already know that addition can be performed in any other using any arrangement of parantheses using however many terms.
 It's obvious.
@@ -149,6 +149,8 @@ or
 \\[11 + 36 + 91 + 0 + 0 + 1 + 64 + 56 + 111 + 9 + 4\\]
 
 The order of terms and the positioning of parantheses doesn't matter, all of the above give the same result.
+You can technically use the above properties to reason through why these rearrangements are correct,
+but let's be real, no is going to do that 💀. Who has time for that?
 
 From now on, let's just agree that doing addition can be done in any order and arrangement.
 It's just common sense 👍.

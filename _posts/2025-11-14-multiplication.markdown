@@ -1,0 +1,159 @@
+---
+layout: post
+title:  "Multiplication"
+date:   2025-11-14 19:49:00 +0100
+categories: main content
+---
+
+{% include math.html %}
+
+Turns out that in real life, having to add the same number many times comes up quite often.
+Let's say I have eight PCs, each equipped with 16 GBs of RAM. How much RAM do I have in total
+(always too little 😢)?
+Well, to find out I have to repeatedly add 16 eight times in a row. That is, I need to compute 8 *times* 16.
+Multiplication.
+
+This is also kiddie math. You already know that multiplication is a shorthand for repeated addition.
+That is
+\\[16 + 16 + 16 + 16 + 16 + 16 + 16 + 16 = 8 \cdot 16\\]
+
+The answer is 128, of course:
+\\[8 \cdot 16 = 128\\]
+
+## The order of terms
+
+What happens in the case where I have 16 PCs with 8 GBs of RAM each?
+To count the total amount of RAM I have now, I have to compute 16 times 8, which is also 128.
+In writing, this is
+\\[16 \cdot 8 = 128\\]
+
+Similar to addition, swapping the two terms when doing multiplication doesn't change the result.
+Here are some more examples:
+\\[3 \cdot 5 = 5 \cdot 3\\]
+\\[11 \cdot 10 = 10 \cdot 11\\]
+\\[3459 \cdot 21356 = 21356 \cdot 3459\\]
+
+This property holds for addition and multiplication too. It's special. So special in fact,
+that it has a name. **Commutativity**. We say that **addition and multiplication are commutative operations**.
+You will see that there are other commutative operators in mathematics.
+
+Writing this property down with letters is very similar to the addition case:
+\\[a \cdot b = b \cdot a\\]
+
+When using letters with multiplication, it is customary to drop the dot between the terms. Like this:
+\\[ab = ba\\]
+Whenever you see two letters next to each other, it should be interpreted as multiplication.
+
+## Parentheses
+
+What about the parentheses property? Well, let's investigate!
+
+Take the following multiplication problem:
+\\[3 \cdot (10 \cdot 6)\\]
+
+As with addition, we evaluate the parentheses first, and then the rest.
+\\[3 \cdot (10 \cdot 6) = 3 \cdot 60 = 180\\]
+I first replaced the parentheses with it's value, 60, and then performed the remaining multiplication.
+
+Let's now move the parentheses one position to the left. This gives us
+\\[(3 \cdot 10) \cdot 6\\]
+Evaluating this can be done as follows:
+\\[(3 \cdot 10) \cdot 6 = 30 \cdot 6 = 180\\]
+
+This confirms our suspicion that the parentheses property holds for multiplication as well.
+Here are some more examples to convince yourself:
+\\[25 \cdot (4 \cdot 6) = (25 \cdot 4) \cdot 6\\]
+\\[3 \cdot (4 \cdot 100) = (3 \cdot 4) \cdot 100\\]
+
+This property also holds for addition, as we've seen. This one is also pretty special, and it also has a name.
+**Associativity**. **Addition and multiplication are associative operations**.
+
+## Multiplication in any order
+
+Just like addition, multiplication can be performed in any order with any number of terms.
+For example, these are all equal
+\\[2 \cdot (125 \cdot 51 \cdot (11 \cdot 3) \cdot 46) \cdot 5\\]
+\\[125 \cdot 46 \cdot 5 \cdot (2 \cdot 11 \cdot 3) \cdot 51\\]
+\\[5 \cdot 46 \cdot 3 \cdot (11 \cdot 55) \cdot (125 \cdot 2)\\]
+
+You can change the order of terms, delete or add in parentheses, it doesn't matter. It's all the same.
+You can use commutativity and associativiy to reason through why this is a correct thing to do,
+but let's not waste our time with that.
+
+## Multiplication by 1
+
+Zero is a special number, since it doesn't really have a "value" with respect to addition.
+It doesn't contribute to the total. I stated this general property as
+\\[a + 0 = a\\]
+Of course, since addition is commutative, I could have also said
+\\[0 + a = a\\]
+since the order doesn't matter 😉.
+
+Is there a number with a similar property for multiplication? One that doesn't change the value of the multiplicand?
+Yeah, there is one. And it's *one*.
+Look:
+\\[1 \cdot 472 = 472\\]
+One times 472 is obviously still 472. And it's not hard to imagine that this works for any number.
+
+Using letters to state this general property, I can say
+\\[1 \cdot a = a\\]
+Since multiplication is commutative, I could have also said
+\\[a \cdot 1 = a\\]
+
+This phenomenon also has a name.
+**Zero is the identity element of addition and one is the identity element of multiplication**.
+
+## Multiplication by 0
+
+What should happen when I multiply some number with zero?
+For instance
+\\[0 \cdot 2 = ?\\]
+
+Let's examine the multiplication table of 2 for a clue!
+\\[
+    \begin{align}
+    6 \cdot 2 &= 12 \newline
+    5 \cdot 2 &= 10 \newline
+    4 \cdot 2 &= 8 \newline
+    3 \cdot 2 &= 6 \newline
+    2 \cdot 2 &= 4 \newline
+    1 \cdot 2 &= 2 \newline 
+    0 \cdot 2 &= ? \newline
+    \end{align}
+\\]
+
+You can see that as we multiply 2 by smaller and smaller numbers, the result decreases. Specifically,
+the result decreases by 2 at each step. This makes sense, since multiplication is technically repeated addition.
+At each step, the number of twos we add together decreases by one, so the total decreases by two.
+
+The last step is multiplication by zero. Continuing the pattern, the only thing that makes sense is to
+say that the last multiplication is equal to zero.
+That is
+\\[0 \cdot 2 = 0\\]
+
+This line of reasoning works with any number. This is another general property, that should be stated using letters
+\\[0 \cdot a = 0\\]
+
+Due to commutativity, it's also true that
+\\[a \cdot 0 = 0\\]
+since reversing the order of multiplication doesn't change the result.
+
+Remember that I can plug in any number in place of "a", even 0 itself. This means that
+\\[0 \cdot 0 = 0\\]
+which is not that surprising I guess 🤔.
+
+This property also has a formal name.
+**Zero is the annihilating element of multiplication.**
+Yeah, that's the official name 😼.
+
+# Takeaway
+
+General properties are often so general, that they are true for multiple different types of objects.
+A large part of mathematics is generalization. If we know that commutativity is true for addition,
+why don't we examine how it behaves with other operations? If zero is the identity element for addition, why don't
+we try to find an identity element for multiplication as well? Is there a property that multiplication has
+but addition doesn't?
+
+Seeing where a property holds and where it breaks down in different contexts allows us to describe
+the property in the most general sense, which is useful and efficient.
+
