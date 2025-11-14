@@ -132,6 +132,27 @@ Using single letters to abbreviate, it's written like
 \\[a + (b + c) = (a + b) + c\\]
 Less of a pain to type 😌.
 
+## Addition in any order
+
+The previous couple of properties concerning the order of terms in addition were there to introduce you to the
+concept of a general property. In reality, you don't consciously think about them (right?) when performing addition.
+You already know that addition can be performed in any other using any arrangement of parantheses using however many terms.
+It's obvious.
+For example, take the following addition problem:
+\\[4 + (9 + 111 + 56 + (64 + 1) + 0) + 0 + 91 + 36 + 11\\]
+
+This can be rearranged in whatever order you like. Really. For instance
+\\[0 + 0 + 1 + 4 + 9 + 11 + 36 + 56 + 64 + 91 + 111\\]
+or
+\\[(4 + 56) + (9 + 1) + (64 + 36) + 111 + 91 + 11 + 0 + 0\\]
+or
+\\[11 + 36 + 91 + 0 + 0 + 1 + 64 + 56 + 111 + 9 + 4\\]
+
+The order of terms and the positioning of parantheses doesn't matter, all of the above give the same result.
+
+From now on, let's just agree that doing addition can be done in any order and arrangement.
+It's just common sense 👍.
+
 # Takeaway
 
 Math is all about general properties which are true for a wide range of numbers.
