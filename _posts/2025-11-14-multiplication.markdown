@@ -33,9 +33,9 @@ Here are some more examples:
 \\[11 \cdot 10 = 10 \cdot 11\\]
 \\[3459 \cdot 21356 = 21356 \cdot 3459\\]
 
-This property holds for addition and multiplication too. It's special. So special in fact,
+You see now that this property holds for addition and multiplication too. It's special. So special in fact,
 that it has a name. **Commutativity**. We say that **addition and multiplication are commutative operations**.
-You will see that there are other commutative operators in mathematics.
+You will get to know other commutative operators in mathematics.
 
 Writing this property down with letters is very similar to the addition case:
 \\[a \cdot b = b \cdot a\\]
@@ -43,6 +43,24 @@ Writing this property down with letters is very similar to the addition case:
 When using letters with multiplication, it is customary to drop the dot between the terms. Like this:
 \\[ab = ba\\]
 Whenever you see two letters next to each other, it should be interpreted as multiplication.
+
+When $$a = 2$$ and $$b = 7$$, we can substitute into this template to get the statement
+\\[2 \cdot 7 = 7 \cdot 2\\]
+This is totally the same think as with addition.
+
+I want to make one thing clear. **You can substitue arbitrarily complex mathematical expression into
+the templates of general properties like the one above**. I've been doing it with single numbers for simplicity,
+but there's nothing stopping you from going crazy with it.
+
+Recall the commutative property of addition: $$a + b = b + a$$.
+Suppose that $$a = 11 \cdot (3 + 5)$$ and $$b = 2 + 8$$.
+Substituting in, I get
+\\[(11 \cdot (3 + 5)) + (2 + 8) = (2 + 8) + (11 \cdot (3 + 5))\\]
+
+When plugging in entire expression into these sort of templates, always use parentheses like I did above.
+It's much easier to see the expressions standing in place of the letter $$a$$ and $$b$$.
+Of course, after you've plugged the values in there's nothing stopping you from deleting and adding in parentheses,
+so long as the rules of mathematics allow it 😉.
 
 ## Parentheses
 
@@ -68,6 +86,14 @@ Here are some more examples to convince yourself:
 This property also holds for addition, as we've seen. This one is also pretty special, and it also has a name.
 **Associativity**. **Addition and multiplication are associative operations**.
 
+With letters, I can write this as
+\\[a(bc) = (ab)c\\]
+
+To create a concrete equation from this template, let's assume that $$a = 7$$,
+$$b = 11 + 2$$ and $$c = 49$$.
+Plugging these in, we obtain
+\\[7 \cdot ((11 + 2) \cdot 49) = (7 \cdot (11 + 2)) \cdot 49\\]
+
 ## Multiplication in any order
 
 Just like addition, multiplication can be performed in any order with any number of terms.
@@ -87,7 +113,7 @@ It doesn't contribute to the total. I stated this general property as
 \\[a + 0 = a\\]
 Of course, since addition is commutative, I could have also said
 \\[0 + a = a\\]
-since the order doesn't matter 😉.
+since the order doesn't matter 😉. We know that addition is commutative, so we can write it either way.
 
 Is there a number with a similar property for multiplication? One that doesn't change the value of the multiplicand?
 Yeah, there is one. And it's *one*.
@@ -97,7 +123,7 @@ One times 472 is obviously still 472. And it's not hard to imagine that this wor
 
 Using letters to state this general property, I can say
 \\[1 \cdot a = a\\]
-Since multiplication is commutative, I could have also said
+Since multiplication is commutative, I could also write this as
 \\[a \cdot 1 = a\\]
 
 This phenomenon also has a name.
@@ -131,14 +157,14 @@ say that the last multiplication is equal to zero.
 That is
 \\[0 \cdot 2 = 0\\]
 
-This line of reasoning works with any number. This is another general property, that should be stated using letters
+This line of reasoning works with any number (try it!). This is another general property, that should be stated using letters
 \\[0 \cdot a = 0\\]
 
 Due to commutativity, it's also true that
 \\[a \cdot 0 = 0\\]
 since reversing the order of multiplication doesn't change the result.
 
-Remember that I can plug in any number in place of "a", even 0 itself. This means that
+Remember that I can plug in any number in place of $$a$$, even 0 itself. This means that
 \\[0 \cdot 0 = 0\\]
 which is not that surprising I guess 🤔.
 
