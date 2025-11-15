@@ -123,8 +123,8 @@ Let's examine the multiplication table of 2 for a clue!
 \\]
 
 You can see that as we multiply 2 by smaller and smaller numbers, the result decreases. Specifically,
-the result decreases by 2 at each step. This makes sense, since multiplication is technically repeated addition.
-At each step, the number of twos we add together decreases by one, so the total decreases by two.
+the result decreases by 2 at each step. This makes sense, since multiplication is technically repeated addition and
+at each step, the number of twos we add together decreases by one, so the total decreases by two.
 
 The last step is multiplication by zero. Continuing the pattern, the only thing that makes sense is to
 say that the last multiplication is equal to zero.
