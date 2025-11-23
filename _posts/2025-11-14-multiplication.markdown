@@ -48,23 +48,48 @@ When $$a = 2$$ and $$b = 7$$, we can substitute into this template to get the st
 \\[2 \cdot 7 = 7 \cdot 2\\]
 This is totally the same think as with addition.
 
+## Templates
+
 I want to make one thing clear. **You can substitue arbitrarily complex mathematical expression into
-the templates of general properties like the one above**. I've been doing it with single numbers for simplicity,
+the templates of general properties like the one before**. I've been doing it with single numbers for simplicity,
 but there's nothing stopping you from going crazy with it.
 
-Recall the commutative property of addition: $$a + b = b + a$$.
+Recall the property of addition concerning 0: $$a + 0 = a$$.
+We can substitute $$a$$ with simple numbers. We know that. We've seen that before.
+For instance, if $$a = 65$$, then plugging it in we get
+\\[65 + 0 = 65\\]
+This is perfectly fine.
+
+What if I say that $$a = 7 + 2$$? A perfectly reasonable decision would be to just perform the addition.
+Essentially, $$a = 9$$, since $$7 + 2 = 9$$. So we plug in 9:
+\\[9 + 0 = 0\\]
+
+But what if I forcefully substitue $$a$$ with the addition problem itself without finding its exact value first? Does the
+template break down? Take a look:
+\\[(7 + 2) + 0 = 0\\]
+
+I use parentheses to indicate that $$a$$ was replaced by an entire expression. The parentheses group the numbers together in the expression.
+
+Is the equation invalid? It doesn't take a big brain to see that it's in fact a completely valid equation. Replacing the parentheses $$(7 + 2)$$
+with it's value, 9, we get the same form as before:
+\\[9 + 0 = 0\\]
+
+All in all, **it doesn't matter whether we evaluate complicated expression before or after substituting**.
+
+For another example, let's recall the commutative property for addition: $$a + b = b + a$$.
 Suppose that $$a = 11 \cdot (3 + 5)$$ and $$b = 2 + 8$$.
 Substituting in, I get
 \\[(11 \cdot (3 + 5)) + (2 + 8) = (2 + 8) + (11 \cdot (3 + 5))\\]
+This is also totally valid. I chose to just plug in the expressions as they are instead of evaluating first.
 
-When plugging in entire expression into these sort of templates, always use parentheses like I did above.
-It's much easier to see the expressions standing in place of the letter $$a$$ and $$b$$.
-Of course, after you've plugged the values in there's nothing stopping you from deleting and adding in parentheses,
-so long as the rules of mathematics allow it 😉.
+The fact that you can actually replace the letters in the templates for general properties with
+*arbitrarily complex* expressions is one of the hardest things to get used to at this stage, so I'll
+be providing plenty of examples.
 
 ## Parentheses
 
-What about the parentheses property? Well, let's investigate!
+What about the parentheses property? As for addition, this was $$a + (b + c) = (a + b) + c$$.
+It there a similar property for multiplication too? Well, let's investigate!
 
 Take the following multiplication problem:
 \\[3 \cdot (10 \cdot 6)\\]
@@ -89,10 +114,13 @@ This property also holds for addition, as we've seen. This one is also pretty sp
 With letters, I can write this as
 \\[a(bc) = (ab)c\\]
 
-To create a concrete equation from this template, let's assume that $$a = 7$$,
+As an example, to create a concrete equation from this template, let's assume that $$a = 7$$,
 $$b = 11 + 2$$ and $$c = 49$$.
 Plugging these in, we obtain
 \\[7 \cdot ((11 + 2) \cdot 49) = (7 \cdot (11 + 2)) \cdot 49\\]
+
+Notice that there is an entire addition problem standing in place of $$b$$. This is completely fine.
+Remember that you can substitute the letters in these templates with any complicated expression.
 
 ## Multiplication in any order
 
@@ -103,7 +131,7 @@ For example, these are all equal
 \\[5 \cdot 46 \cdot 3 \cdot (11 \cdot 55) \cdot (125 \cdot 2)\\]
 
 You can change the order of terms, delete or add in parentheses, it doesn't matter. It's all the same.
-You can use commutativity and associativiy to reason through why this is a correct thing to do,
+**You can use commutativity and associativiy to reason through why this is a correct thing to do**,
 but let's not waste our time with that.
 
 ## Multiplication by 1
@@ -126,8 +154,17 @@ Using letters to state this general property, I can say
 Since multiplication is commutative, I could also write this as
 \\[a \cdot 1 = a\\]
 
+If you think about it, 1 is the only number that has this property. Multiplying by any other number will
+surely change the value of $$a$$.
+
 This phenomenon also has a name.
 **Zero is the identity element of addition and one is the identity element of multiplication**.
+**The identity element for addition and multiplication is unique**, there is no other number that satisfies this property.
+
+As an example, if $$a = 11 + 17 + (6 \cdot 6)$$, then the template evaluates to
+\\[(11 + 17 + (6 \cdot 6)) \cdot 1 = 11 + 17 + (6 \cdot 6)\\]
+
+It might be a little hard to see, but this indeed comforms to the template above.
 
 ## Multiplication by 0
 

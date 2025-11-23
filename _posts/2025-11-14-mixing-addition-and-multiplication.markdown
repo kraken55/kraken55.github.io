@@ -49,7 +49,7 @@ the fact that when only addition is involved in an expression or equation, I can
 
 I can reorder the above expression like so:
 \\[2 + 2 + 2 + 2 + 3 + 3 + 3 + 3\\]
-All I did was break up all the parentheses and group equal terms together.
+All I did was break up all the parentheses and group equal terms together. Twos on the left, threes on the right.
 
 Notice the repeated addition of twos and threes! This is multiplication! So let's write it as such!
 It might seem stupid to introduce multiplication again, since we literally started by breaking it up, but let's do that anyway.
