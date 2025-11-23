@@ -190,7 +190,7 @@ which evaluates to 16.
 
 For a different example, consider what happens when $$a = -2$$ and $$b = 1$$.
 Then the template becomes
-\\[(-(-2)) \cdot 1 = (-2) \cdot 1\\]
+\\[(-(-2)) \cdot (-1) = (-2) \cdot 1\\]
 
 If you look at it and evaluate both sides, you can see that this is also true.
 
